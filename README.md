@@ -1,1 +1,1 @@
-# Pro.DesignPattern.Api
+# design patterns decorator
