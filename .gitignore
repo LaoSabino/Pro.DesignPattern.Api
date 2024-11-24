@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Api.DisingPatern/v17
+/Pro.DesingPatter.Api/.vs/Pro.DesingPatter.Api/DesignTimeBuild
+/Pro.DesingPatter.Api/.vs/Pro.DesingPatter.Api/FileContentIndex
+/Pro.DesingPatter.Api/.vs/Pro.DesingPatter.Api/v17
+/Pro.DesingPatter.Api/.vs/ProjectEvaluation
+/Pro.DesingPatter.Api/bin/Debug/net8.0
+/Pro.DesingPatter.Api/obj
+/Pro.DesingPatter.Core/bin/Debug/net8.0
+/.vs
+/Pro.DesingPatter.Core/obj
