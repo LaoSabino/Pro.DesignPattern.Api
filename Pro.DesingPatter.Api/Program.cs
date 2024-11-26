@@ -1,5 +1,6 @@
 using Pro.DesingPatter.Api.Endpoint;
 using Pro.DesingPatter.Core.Interfaces;
+using Pro.DesingPatter.Core.Repository;
 using Pro.DesingPatter.Core.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,6 +16,7 @@ builder.Services.AddLogging(config => config.AddConsole());
 builder.Services.AddSingleton<IFlightService, FlightService>();
 builder.Services.Decorate<IFlightService, LoggedFlightService>();
 builder.Services.Decorate<IFlightService, CachedFlightService>();
+builder.Services.AddSingleton<IFlightRepository, FlightRepository>();
 
 var app = builder.Build();
 
